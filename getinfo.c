@@ -1,4 +1,4 @@
-#include "custom_shell.h"
+#include "shell.h"
 
 /**
  * initialize_shell_info - initializes custom_info_t structure

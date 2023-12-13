@@ -1,4 +1,4 @@
-#include "custom_shell.h"
+#include "shell.h"
 
 /**
  * get_history_filepath - retrieves the file path for storing command history
