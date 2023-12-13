@@ -1,5 +1,6 @@
 #include "shell.h"
 
+
 /**
  * check_interactive_mode - Determine if the shell is running in interactive mode.
  * @info: Pointer to information about the shell.
@@ -7,7 +8,7 @@
  */
 int check_interactive_mode(info_t *info)
 {
-	return (isatty(STDIN_FILENO) && info->read_fd <= 2);
+	return (isatty(STDIN_FILENO) && info->readfd <= 2);
 }
 
 /**
